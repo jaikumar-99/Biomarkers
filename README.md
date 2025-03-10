@@ -34,9 +34,11 @@ Used Isolation Forest and Z-score filtering to remove outliers dynamically based
 
 **Adaptive Imputation for Missing Values:**
 Implemented K-Nearest Neighbors (KNN) Imputation to predict missing biomarker values instead of simple mean/mode imputation.
+
 Time-Series Feature Engineering:
 Created biomarker change rate features to analyze fluctuations over time.
 Used Fourier Transforms to extract periodic trends from longitudinal biomarker data.
+
 Anomaly Detection for Disease Screening:
 Applied Autoencoders and One-Class SVM to detect rare biomarker patterns linked to early disease onset.
 
