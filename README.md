@@ -23,13 +23,16 @@ Feature Engineering & Analysis: SHAP (Explainable AI), Autoencoders
 Visualization: Matplotlib, Seaborn, Plotly
 
 Security & Compliance: HIPAA-compliant environment, All of Us Workbench
+![image](https://github.com/user-attachments/assets/6d0fbe38-5961-4152-af16-4d909895b13c)
+
+
 
 **Advanced Data Cleaning & Processing Techniques**
 
-Dynamic Outlier Detection:
+**Dynamic Outlier Detection:**
 Used Isolation Forest and Z-score filtering to remove outliers dynamically based on feature distributions.
 
-Adaptive Imputation for Missing Values:
+**Adaptive Imputation for Missing Values:**
 Implemented K-Nearest Neighbors (KNN) Imputation to predict missing biomarker values instead of simple mean/mode imputation.
 Time-Series Feature Engineering:
 Created biomarker change rate features to analyze fluctuations over time.
@@ -38,22 +41,22 @@ Anomaly Detection for Disease Screening:
 Applied Autoencoders and One-Class SVM to detect rare biomarker patterns linked to early disease onset.
 
 
-Machine Learning Algorithms Used (Advanced)
+**Machine Learning Algorithms Used (Advanced)**
 
-LightGBM (Gradient Boosting Trees): Faster and more efficient than XGBoost for handling large datasets with categorical features.
+**LightGBM**(Gradient Boosting Trees): Faster and more efficient than XGBoost for handling large datasets with categorical features.
 
-Contrastive Learning for Biomarker Trends: Implemented Siamese Networks to learn similarities between patients with early disease markers.
+**Contrastive Learning for Biomarker Trends**: Implemented Siamese Networks to learn similarities between patients with early disease markers.
 
-Federated Learning for Privacy-Preserving AI: Used TensorFlow Federated (TFF) to train models without sharing raw patient data.
+**Federated Learning for Privacy-Preserving AI**: Used TensorFlow Federated (TFF) to train models without sharing raw patient data.
 
-SHAP & Counterfactual Explainability: Applied Counterfactual AI models to determine how biomarker values should change for lower disease risk.
+**SHAP & Counterfactual Explainability**: Applied Counterfactual AI models to determine how biomarker values should change for lower disease risk.
 
-Streamlit Web App for Disease Risk Prediction
-Frontend: Developed an interactive and user-friendly interface using Streamlit.
-User Input: Patients can enter biomarker values such as HbA1c, LDL, Systolic BP, along with age and medical history.
-Risk Score Calculation: AI model predicts the probability of disease using the biomarker values entered by the user.
+**Streamlit Web App for Disease Risk Prediction**
+**Frontend**: Developed an interactive and user-friendly interface using Streamlit.
+**User Input**: Patients can enter biomarker values such as HbA1c, LDL, Systolic BP, along with age and medical history.
+**Risk Score Calculation**: AI model predicts the probability of disease using the biomarker values entered by the user.
 
-Key Innovations & Contributions
+**Key Innovations & Contributions**
 
 1. Multi-Agent AI for Risk Prediction
 Developed a multi-agent system, where specialized AI models predict risks for diabetes, cardiovascular disease, and Alzheimer's.
@@ -64,5 +67,5 @@ Improved model generalization across diverse patient populations without comprom
 Identified high-risk subgroups using unsupervised learning, improving early detection and treatment planning.
 
 
-Demo Link: 
+**Demo Link**: 
 https://youtu.be/uE8LQeD8VHs?si=nZHtJ9M4G0iz366i
